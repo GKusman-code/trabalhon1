@@ -2,11 +2,11 @@ function mostrarMensagem() {
   const mensagem = document.getElementById("mensagem");
 
   mensagem.innerHTML = `
-    <div style="text-align: center;">
-      <img src="https://i.gifer.com/7efs.gif" alt="Foguete decolando" width="150">
-    </div>
+    <p>Rumo ao espaço com a tecnologia!</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Emoji_u1f680.svg/120px-Emoji_u1f680.svg.png" 
+         alt="Foguete decolando" 
+         class="foguete">
   `;
 
-  // Rola suavemente até a mensagem
   mensagem.scrollIntoView({ behavior: 'smooth' });
 }
