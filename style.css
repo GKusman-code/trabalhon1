@@ -52,30 +52,9 @@ a:hover {
 /* ==== ESTILO DO FOGUETE ==== */
 .foguete {
   width: 100px;
-  animation: decolar 2s ease-out forwards;
-  position: relative;
   display: block;
-  margin: 20px auto;
+  margin: 20px auto 0;
+  position: relative;
+  bottom: 20px; /* sobe o foguete 20px */
 }
 
-@keyframes decolar {
-  0% {
-    bottom: 0;
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.05);
-  }
-  100% {
-    bottom: 100px;
-    transform: translateY(-100px);
-  }
-}
-
-#mensagem {
-  margin-top: 40px;
-  text-align: center;
-  font-size: 20px;
-}
