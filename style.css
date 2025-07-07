@@ -1,9 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: #f0f4f8; /* Cor suave */
+  background: linear-gradient(to bottom right, #f0f4f8, #ffffff);
   color: #333;
 }
+
 
 h1 {
   text-align: center;
